@@ -1,0 +1,25 @@
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="css.css">
+  <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+<div id="map"></div>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKjY7P1tc1MgIBX9UDkZxj1pBBAAJ3Kdw&callback=getJson">
+</script>
+<script>
+//https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+function getJson(){
+  fetch('datatest4.json')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(theJson) {
+      initMap(theJson);
+    });
+}
+
+</script>
+</body>
+</html>

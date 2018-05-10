@@ -1,0 +1,783 @@
+﻿
+{
+  "Sheet1": [{
+      "index": "1",
+      "common_co_name": "Sainsbury’s ",
+      "lat": "51.483266",
+      "lat_orig": "51.483114",
+      "long": "-3.171968",
+      "long_orig": "-3.172241",
+      "Image": "sainsburys.jpg",
+      "PopUpContent": "<html lang=\"en\"><head>\r\n  <meta charset=\"utf-8\">\r\n  <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <title>Company ownership in Cardiff</title>\r\n<style>\r\n/* Remove default browser settings */\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n/* Default text options (across the site) */\r\nhtml {\r\n  font-size: 14px;\r\n  font-family: 'Noto Sans', sans-serif;\r\n}\r\n/* Body and master container */\r\nbody {\r\n  width: 100vw; /* change? */\r\n  background-color: white;\r\n  font-size: 1.1rem;\r\n}\r\n/* Temp */\r\ndiv#container_search_results {\r\n  justify-content: center;\r\n  padding: 1rem 2rem 2rem 2rem;\r\n}\r\ndiv.container_master {\r\n  max-width: 85vw;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items:flex-start;\r\n  justify-content: center;\r\n  border-width: 1px;\r\n  border-style: solid;\r\n  border-color: black;\r\n  padding: 1rem 2rem 2rem 2rem;\r\n  margin: 1rem;\r\n}\r\ndiv.popup_text {\r\n  padding-top: 1rem;\r\n}\r\ndiv#container_co_list {\r\n  border-width: 1px;\r\n  border-style: dashed;\r\n  border-color: black;\r\n  padding: 1rem;\r\n  margin: 1rem;\r\n}\r\ndiv#co_name {\r\n  font-size: 2.6rem;\r\n}\r\ndiv#co_sources {\r\n  font-style: italic;\r\n}\r\nul {\r\n  margin-left: 2rem;\r\n}\r\n/* Headings */\r\n/* h1, h2 {\r\n  color: rgb(0, 170, 209);\r\n  padding-bottom: 0.5rem;\r\n  padding-top: 0.5rem;\r\n}\r\nh1 {\r\n  text-align: center;\r\n  padding-top: 100px;\r\n  font-size: 2.6rem;\r\n}\r\nh2 {\r\n  color: #383a3d;\r\n  font-weight: bold;\r\n} */\r\n/* a.coname_link {\r\n  color: darkblue;\r\n}\r\nstrong {\r\n  font-weight: bolder;\r\n  color: rgb(0, 170, 209);\r\n} */\r\n</style>\r\n  <link href=\"https://fonts.googleapis.com/css?family=Noto+Sans\" rel=\"stylesheet\">\r\n  <script src=\"js/app.js\"></script>\r\n</head>\r\n  <header></header>\r\n<div class=\"container_master\">\r\n    <!-- Basic company information -->\r\n    <div id=\"co_name\" class=\"popup_text\">Sainsburys<br></div>\r\n    <!-- Company ownership and other details -->\r\n    <div id=\"co_details\" class=\"popup_text\">Address: 1 Queens St<br><br>Sainsburys is owned by Guernsey-based Public company, J P Penny. When you shop at Sainsburys, you are shopping at a company that:<br><br><div class=\"list_div\"><ul><li>Their CEO (or one of),Dave Dave, gets an annual salary of 1 million</li><li>Scores 1 out of 20 from Ethical Consumer</li><li>This is my EC fact</li><li id=\"add_text_li\">Here is some additional free text</li></ul></div></div>\r\n    <!-- Official trading information -->\r\n    <div id=\"co_trading\" class=\"popup_text\"><p><a href=\"www.google.com\" target=\"_blank\">Sainsburys</a> trade as Sainsburys PLC. They are a Public company, with company number <a href=\"https://www.gov.uk/government/organisations/companies-house\" target=\"_blank\">123456</a> and are registered at 12 London St.<br></p><p>The owner, <a href=\"www.google.com\" target=\"_blank\">J P Penny</a>, has company number <a href=\"www.google.com\" target=\"_blank\">5678</a>, and is registered at Trafalgar Sq.</p></div>\r\n    <!-- Source information -->\r\n    <div id=\"co_sources\" class=\"popup_text\"><p>Please see our <a href=\"www.google.com\" target=\"_blank\">methods page</a> for notes on the sources used</p></div>\r\n  </div>\r\n  <!-- Master container ends -->\r\n</body></html>"
+    },
+    {
+      "index": "2",
+      "common_co_name": "KFC",
+      "lat": "51.483119",
+      "lat_orig": "51.483113",
+      "long": "-3.172245",
+      "long_orig": "-3.172244",
+      "Image": "kfc.jpg",
+      "PopUpContent": "<html lang=\"en\"><head>\r\n  <meta charset=\"utf-8\">\r\n  <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <title>Company ownership in Cardiff</title>\r\n<style>\r\n/* Remove default browser settings */\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n/* Default text options (across the site) */\r\nhtml {\r\n  font-size: 14px;\r\n  font-family: 'Noto Sans', sans-serif;\r\n}\r\n/* Body and master container */\r\nbody {\r\n  background-color: white;\r\n  font-size: 1.1rem;\r\n}\r\n/* Temp */\r\ndiv#container_search_results {\r\n  justify-content: center;\r\n  padding: 1rem 2rem 2rem 2rem;\r\n}\r\ndiv.container_master {\r\n  max-width: 100vw;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items:flex-start;\r\n  justify-content: center;\r\n  border-width: 0px;\r\n  border-style: none;\r\n  border-color: black;\r\n  padding: 1rem 2rem 2rem 2rem;\r\n  margin: 0rem;\r\n}\r\ndiv.popup_text {\r\n  padding-top: 0rem;\r\n}\r\ndiv#container_co_list {\r\n  border-width: 0px;\r\n  border-style: dashed;\r\n  border-color: black;\r\n  padding: 0rem;\r\n  margin: 0rem;\r\n}\r\ndiv#co_name {\r\n  font-size: 2.6rem;\r\n}\r\ndiv#co_sources {\r\n  font-style: italic;\r\n}\r\nul {\r\n  margin-left: 0rem;\r\n}\r\n/* Headings */\r\n/* h1, h2 {\r\n  color: rgb(0, 170, 209);\r\n  padding-bottom: 0rem;\r\n  padding-top: 0rem;\r\n}\r\nh1 {\r\n  text-align: center;\r\n  padding-top: 0px;\r\n  font-size: 2.6rem;\r\n}\r\nh2 {\r\n  color: #383a3d;\r\n  font-weight: bold;\r\n} */\r\n/* a.coname_link {\r\n  color: darkblue;\r\n}\r\nstrong {\r\n  font-weight: bolder;\r\n  color: rgb(0, 170, 209);\r\n} */\r\n</style>\r\n  <link href=\"https://fonts.googleapis.com/css?family=Noto+Sans\" rel=\"stylesheet\">\r\n  <script src=\"js/app.js\"></script>\r\n</head>\r\n  <header></header>\r\n<div class=\"container_master\">\r\n    <!-- Basic company information -->\r\n    <div id=\"co_name\" class=\"popup_text\">KFC<br></div>\r\n    <!-- Company ownership and other details -->\r\n    <div id=\"co_details\" class=\"popup_text\">Address: 1 Queens St<br><br>Sainsburys is owned by Guernsey-based Public company, J P Penny. When you shop at Sainsburys, you are shopping at a company that:<br><br><div class=\"list_div\"><ul><li>Their CEO (or one of),Dave Dave, gets an annual salary of 1 million</li><li>Scores 1 out of 20 from Ethical Consumer</li><li>This is my EC fact</li><li id=\"add_text_li\">Here is some additional free text</li></ul></div></div>\r\n    <!-- Official trading information -->\r\n    <div id=\"co_trading\" class=\"popup_text\"><p><a href=\"www.google.com\" target=\"_blank\">Sainsburys</a> trade as Sainsburys PLC. They are a Public company, with company number <a href=\"https://www.gov.uk/government/organisations/companies-house\" target=\"_blank\">123456</a> and are registered at 12 London St.<br></p><p>The owner, <a href=\"www.google.com\" target=\"_blank\">J P Penny</a>, has company number <a href=\"www.google.com\" target=\"_blank\">5678</a>, and is registered at Trafalgar Sq.</p></div>\r\n    <!-- Source information -->\r\n    <div id=\"co_sources\" class=\"popup_text\"><p>Please see our <a href=\"www.google.com\" target=\"_blank\">methods page</a> for notes on the sources used</p></div>\r\n  </div>\r\n  <!-- Master container ends -->\r\n</body></html>"
+    },
+    {
+      "index": "3",
+      "common_co_name": "Starbucks Coffee",
+      "lat": "51.48315",
+      "lat_orig": "51.483055",
+      "long": "-3.172344",
+      "long_orig": "-3.172361",
+      "Image": "starbucks.jpg",
+        "PopUpContent": "<html lang=\"en\"><head>\r\n  <meta charset=\"utf-8\">\r\n  <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <title>Company ownership in Cardiff</title>\r\n<style>\r\n/* Remove default browser settings */\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n/* Default text options (across the site) */\r\nhtml {\r\n  font-size: 14px;\r\n  font-family: 'Noto Sans', sans-serif;\r\n}\r\n/* Body and master container */\r\nbody {\r\n  width: 100vw; /* change? */\r\n  background-color: white;\r\n  font-size: 1.1rem;\r\n}\r\n/* Temp */\r\ndiv#container_search_results {\r\n  justify-content: center;\r\n  padding: 1rem 2rem 2rem 2rem;\r\n}\r\ndiv.container_master {\r\n  max-width: 85vw;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items:flex-start;\r\n  justify-content: center;\r\n  border-width: 1px;\r\n  border-style: solid;\r\n  border-color: black;\r\n  padding: 1rem 2rem 2rem 2rem;\r\n  margin: 1rem;\r\n}\r\ndiv.popup_text {\r\n  padding-top: 1rem;\r\n}\r\ndiv#container_co_list {\r\n  border-width: 1px;\r\n  border-style: dashed;\r\n  border-color: black;\r\n  padding: 1rem;\r\n  margin: 1rem;\r\n}\r\ndiv#co_name {\r\n  font-size: 2.6rem;\r\n}\r\ndiv#co_sources {\r\n  font-style: italic;\r\n}\r\nul {\r\n  margin-left: 2rem;\r\n}\r\n/* Headings */\r\n/* h1, h2 {\r\n  color: rgb(0, 170, 209);\r\n  padding-bottom: 0.5rem;\r\n  padding-top: 0.5rem;\r\n}\r\nh1 {\r\n  text-align: center;\r\n  padding-top: 100px;\r\n  font-size: 2.6rem;\r\n}\r\nh2 {\r\n  color: #383a3d;\r\n  font-weight: bold;\r\n} */\r\n/* a.coname_link {\r\n  color: darkblue;\r\n}\r\nstrong {\r\n  font-weight: bolder;\r\n  color: rgb(0, 170, 209);\r\n} */\r\n</style>\r\n  <link href=\"https://fonts.googleapis.com/css?family=Noto+Sans\" rel=\"stylesheet\">\r\n  <script src=\"js/app.js\"></script>\r\n</head>\r\n  <header></header>\r\n<div class=\"container_master\">\r\n    <!-- Basic company information -->\r\n    <div id=\"co_name\" class=\"popup_text\">Starbucks<br></div>\r\n    <!-- Company ownership and other details -->\r\n    <div id=\"co_details\" class=\"popup_text\">Address: 1 Queens St<br><br>Sainsburys is owned by Guernsey-based Public company, J P Penny. When you shop at Sainsburys, you are shopping at a company that:<br><br><div class=\"list_div\"><ul><li>Their CEO (or one of),Dave Dave, gets an annual salary of 1 million</li><li>Scores 1 out of 20 from Ethical Consumer</li><li>This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact v This is my EC fact</li><li id=\"add_text_li\">Here is some additional free text</li></ul></div></div>\r\n    <!-- Official trading information -->\r\n    <div id=\"co_trading\" class=\"popup_text\"><p><a href=\"www.google.com\" target=\"_blank\">Sainsburys</a> trade as Sainsburys PLC. They are a Public company, with company number <a href=\"https://www.gov.uk/government/organisations/companies-house\" target=\"_blank\">123456</a> and are registered at 12 London St.<br></p><p>The owner, <a href=\"www.google.com\" target=\"_blank\">J P Penny</a>, has company number <a href=\"www.google.com\" target=\"_blank\">5678</a>, and is registered at Trafalgar Sq.</p></div>\r\n    <!-- Source information -->\r\n    <div id=\"co_sources\" class=\"popup_text\"><p>Please see our <a href=\"www.google.com\" target=\"_blank\">methods page</a> for notes on the sources used</p></div>\r\n  </div>\r\n  <!-- Master container ends -->\r\n</body></html>"
+    },
+    {
+      "index": "4",
+      "common_co_name": "Poundland",
+      "lat": "51.483222",
+      "lat_orig": "51.483118",
+      "long": "-3.172619",
+      "long_orig": "-3.172608",
+      "Image": "poundland.jpg",
+        "PopUpContent": "<html lang=\"en\"><head>\r\n  <meta charset=\"utf-8\">\r\n  <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <title>Company ownership in Cardiff</title>\r\n<style>\r\n/* Remove default browser settings */\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n/* Default text options (across the site) */\r\nhtml {\r\n  font-size: 14px;\r\n  font-family: 'Noto Sans', sans-serif;\r\n}\r\n/* Body and master container */\r\nbody {\r\n  background-color: white;\r\n  font-size: 1.1rem;\r\n}\r\n/* Temp */\r\ndiv#container_search_results {\r\n  justify-content: center;\r\n  padding: 1rem 2rem 2rem 2rem;\r\n}\r\ndiv.container_master {\r\n  max-width: 100vw;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items:flex-start;\r\n  justify-content: center;\r\n  border-width: 0px;\r\n  border-style: none;\r\n  border-color: black;\r\n  padding: 0rem 2rem 2rem 2rem;\r\n  margin: 0rem;\r\n}\r\ndiv.popup_text {\r\n  padding-top: 0rem;\r\n}\r\ndiv#container_co_list {\r\n  border-width: 0px;\r\n  border-style: dashed;\r\n  border-color: black;\r\n  padding: 0rem;\r\n  margin: 0rem;\r\n}\r\ndiv#co_name {\r\n  font-size: 2.6rem;\r\n}\r\ndiv#co_sources {\r\n  font-style: italic;\r\n}\r\nul {\r\n  margin-left: 0rem;\r\n}\r\n/* Headings */\r\n/* h1, h2 {\r\n  color: rgb(0, 170, 209);\r\n  padding-bottom: 0rem;\r\n  padding-top: 0rem;\r\n}\r\nh1 {\r\n  text-align: center;\r\n  padding-top: 0px;\r\n  font-size: 2.6rem;\r\n}\r\nh2 {\r\n  color: #383a3d;\r\n  font-weight: bold;\r\n} */\r\n/* a.coname_link {\r\n  color: darkblue;\r\n}\r\nstrong {\r\n  font-weight: bolder;\r\n  color: rgb(0, 170, 209);\r\n} */\r\n</style>\r\n  <link href=\"https://fonts.googleapis.com/css?family=Noto+Sans\" rel=\"stylesheet\">\r\n  <script src=\"js/app.js\"></script>\r\n</head>\r\n  <header></header>\r\n<div class=\"container_master\">\r\n    <!-- Basic company information -->\r\n    <div id=\"co_name\" class=\"popup_text\">Poundland<br></div>\r\n    <!-- Company ownership and other details -->\r\n    <div id=\"co_details\" class=\"popup_text\">Address: 1 Queens St<br><br>Sainsburys is owned by Guernsey-based Public company, J P Penny. When you shop at Sainsburys, you are shopping at a company that:<br><br><div class=\"list_div\"><ul><li>Their CEO (or one of),Dave Dave, gets an annual salary of 1 million</li><li>Scores 1 out of 20 from Ethical Consumer</li><li>This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact This is my EC fact v This is my EC fact</li><li id=\"add_text_li\">Here is some additional free text</li></ul></div></div>\r\n    <!-- Official trading information -->\r\n    <div id=\"co_trading\" class=\"popup_text\"><p><a href=\"www.google.com\" target=\"_blank\">Sainsburys</a> trade as Sainsburys PLC. They are a Public company, with company number <a href=\"https://www.gov.uk/government/organisations/companies-house\" target=\"_blank\">123456</a> and are registered at 12 London St.<br></p><p>The owner, <a href=\"www.google.com\" target=\"_blank\">J P Penny</a>, has company number <a href=\"www.google.com\" target=\"_blank\">5678</a>, and is registered at Trafalgar Sq.</p></div>\r\n    <!-- Source information -->\r\n    <div id=\"co_sources\" class=\"popup_text\"><p>Please see our <a href=\"www.google.com\" target=\"_blank\">methods page</a> for notes on the sources used</p></div>\r\n  </div>\r\n  <!-- Master container ends -->\r\n</body></html>"
+    },
+    {
+      "index": "5",
+      "common_co_name": "Phone Mania",
+      "lat": "51.482996",
+      "lat_orig": "51.482956",
+      "long": "-3.1728",
+      "long_orig": "-3.173219",
+      "Image": "phonemania.jpg"
+    },
+    {
+      "index": "6",
+      "common_co_name": "Timpson",
+      "lat": "51.482947",
+      "lat_orig": "51.482974",
+      "long": "-3.172985",
+      "long_orig": "-3.173395",
+      "Image": "timpson.jpg"
+    },
+    {
+      "index": "7",
+      "common_co_name": "200 Degree Coffee",
+      "lat": "51.482843",
+      "lat_orig": "51.48291",
+      "long": "-3.173149",
+      "long_orig": "-3.173062",
+      "Image": "200degrees.jpg"
+    },
+    {
+      "index": "8",
+      "common_co_name": "Patisserie Valerie",
+      "lat": "51.482863",
+      "lat_orig": "51.47945",
+      "long": "-3.173245",
+      "long_orig": "-3.173945",
+      "Image": "patisserievalerie.jpg"
+    },
+    {
+      "index": "9",
+      "common_co_name": "EMPTY",
+      "Image": "empty.jpg"
+    },
+    {
+      "index": "10",
+      "common_co_name": "Office",
+      "lat": "51.482846",
+      "lat_orig": "51.482846",
+      "long": "-3.17337",
+      "long_orig": "-3.17337",
+      "Image": "office.jpg"
+    },
+    {
+      "index": "12",
+      "common_co_name": "Parc Lane Traditional Fish and Chips",
+      "lat": "51.482792",
+      "lat_orig": "51.482687",
+      "long": "-3.173518",
+      "long_orig": "-3.173929",
+      "Image": "parclane.jpg"
+    },
+    {
+      "index": "13",
+      "common_co_name": "Carphone Warehouse",
+      "lat": "51.48272",
+      "lat_orig": "51.482726",
+      "long": "-3.173746",
+      "long_orig": "-3.173759",
+      "Image": "carphone.jpg"
+    },
+    {
+      "index": "14",
+      "common_co_name": "Fusion Students Accomodation",
+      "lat": "51.48295",
+      "lat_orig": "51.483221",
+      "long": "-3.173746",
+      "long_orig": "-3.16664",
+      "Image": "fusionstudents.jpg"
+    },
+    {
+      "index": "15",
+      "common_co_name": "Case-Up",
+      "lat": "51.48295",
+      "lat_orig": "51.4818",
+      "long": "-3.173846",
+      "long_orig": "-3.178815",
+      "Image": "caseup.jpg"
+    },
+    {
+      "index": "16",
+      "common_co_name": "Second Cup Coffee Company",
+      "lat": "51.482671",
+      "lat_orig": "51.482874",
+      "long": "-3.173888",
+      "long_orig": "-3.174066",
+      "Image": "secondcupcoffeeco.jpg"
+    },
+    {
+      "index": "17",
+      "common_co_name": "EE",
+      "lat": "51.482663",
+      "lat_orig": "51.48246",
+      "long": "-3.173985",
+      "long_orig": "-3.17419",
+      "Image": "ee.jpg"
+    },
+    {
+      "index": "18",
+      "common_co_name": "e-cigarette DIRECT",
+      "lat": "51.482639",
+      "lat_orig": "51.482614",
+      "long": "-3.174065",
+      "long_orig": "-3.174104",
+      "Image": "e-cigarette.jpg"
+    },
+    {
+      "index": "19",
+      "common_co_name": "Ollie Quinn",
+      "lat": "51.482639",
+      "lat_orig": "51.482663",
+      "long": "-3.17419",
+      "long_orig": "-3.173985",
+      "Image": "olliequinn.jpg"
+    },
+    {
+      "index": "20",
+      "common_co_name": "Costa",
+      "lat": "51.482639",
+      "lat_orig": "51.482044",
+      "long": "-3.1746",
+      "long_orig": "-3.175606",
+      "Image": "costa.jpg"
+    },
+    {
+      "index": "21",
+      "common_co_name": "WH Smith",
+      "lat": "51.482589",
+      "lat_orig": "51.482589",
+      "long": "-3.174747",
+      "long_orig": "-3.174747",
+      "Image": "whsmith.jpg"
+    },
+    {
+      "index": "22",
+      "common_co_name": "Holland and Barrett",
+      "lat": "51.482589",
+      "lat_orig": "51.48005",
+      "long": "-3.174847",
+      "long_orig": "-3.175271",
+      "Image": "hollandandbarrett.jpg"
+    },
+    {
+      "index": "23",
+      "common_co_name": "EMPTY",
+      "Image": "empty.jpg"
+    },
+    {
+      "index": "24",
+      "common_co_name": "Topshop and Topman",
+      "lat": "51.482361",
+      "lat_orig": "51.482343",
+      "long": "-3.175078",
+      "long_orig": "-3.175072",
+      "Image": "topshop.jpg"
+    },
+    {
+      "index": "25",
+      "common_co_name": "ZARA",
+      "lat": "51.482253",
+      "lat_orig": "51.482193",
+      "long": "-3.175336",
+      "long_orig": "-3.175767",
+      "Image": "zara.jpg"
+    },
+    {
+      "index": "26",
+      "common_co_name": "River Island",
+      "lat": "51.482216",
+      "lat_orig": "51.4822",
+      "long": "-3.17545",
+      "long_orig": "-3.175376",
+      "Image": "riverisland.jpg"
+    },
+    {
+      "index": "27",
+      "common_co_name": "LUSH",
+      "lat": "51.482194",
+      "lat_orig": "51.482482",
+      "long": "-3.175552",
+      "long_orig": "-3.175508",
+      "Image": "lush.jpg"
+    },
+    {
+      "index": "28",
+      "common_co_name": "Wilko",
+      "lat": "51.482208",
+      "lat_orig": "51.482193",
+      "long": "-3.175788",
+      "long_orig": "-3.175767",
+      "Image": "wilko.jpg"
+    },
+    {
+      "index": "29",
+      "common_co_name": "JD - King Of Trainers",
+      "lat": "51.482251",
+      "lat_orig": "51.482193",
+      "long": "-3.1759",
+      "long_orig": "-3.175767",
+      "Image": "jd.jpg"
+    },
+    {
+      "index": "30",
+      "common_co_name": "Ann Summers",
+      "lat": "51.482251",
+      "lat_orig": "51.482208",
+      "long": "-3.17605",
+      "long_orig": "-3.177405",
+      "Image": "annsummers.jpg"
+    },
+    {
+      "index": "31",
+      "common_co_name": "Nationwide Building Society",
+      "lat": "51.482122",
+      "lat_orig": "51.482058",
+      "long": "-3.175887",
+      "long_orig": "-3.176176",
+      "Image": "nationwide.jpg"
+    },
+    {
+      "index": "32",
+      "common_co_name": "Matalan",
+      "lat": "51.482072",
+      "lat_orig": "51.482058",
+      "long": "-3.176346",
+      "long_orig": "-3.176176",
+      "Image": "matalan.jpg"
+    },
+    {
+      "index": "33",
+      "common_co_name": "HMV",
+      "lat": "51.482165",
+      "lat_orig": "51.481972",
+      "long": "-3.176167",
+      "long_orig": "-3.176242",
+      "Image": "hmv.jpg"
+    },
+    {
+      "index": "34",
+      "common_co_name": "Irepair",
+      "lat": "51.482072",
+      "lat_orig": "51.481955",
+      "long": "-3.176466",
+      "long_orig": "-3.176415",
+      "Image": "irepair.jpg"
+    },
+    {
+      "index": "35",
+      "common_co_name": "Thomas Cook",
+      "lat": "51.482072",
+      "lat_orig": "51.481779",
+      "long": "-3.176594",
+      "long_orig": "-3.177753",
+      "Image": "thomascook.jpg"
+    },
+    {
+      "index": "37",
+      "common_co_name": "EMPTY",
+      "Image": "empty.jpg"
+    },
+    {
+      "index": "39",
+      "common_co_name": "Pillars restaurant and coffee shop",
+      "lat": "51.481984",
+      "lat_orig": "51.481759",
+      "long": "-3.177201",
+      "long_orig": "-3.177881",
+      "Image": "pillars.jpg"
+    },
+    {
+      "index": "40",
+      "common_co_name": "Principality Building Society",
+      "lat": "51.481984",
+      "lat_orig": "51.48223",
+      "long": "-3.177301",
+      "long_orig": "-3.177826",
+      "Image": "principality.jpg"
+    },
+    {
+      "index": "41",
+      "common_co_name": "DW Sports Stores",
+      "lat": "51.48197",
+      "lat_orig": "51.483039",
+      "long": "-3.17755",
+      "long_orig": "-3.171438",
+      "Image": "dwsports.jpg"
+    },
+    {
+      "index": "42",
+      "common_co_name": "Superdrug",
+      "lat": "51.48194",
+      "lat_orig": "51.481914",
+      "long": "-3.177683",
+      "long_orig": "-3.177605",
+      "Image": "superdrug.jpg"
+    },
+    {
+      "index": "43",
+      "common_co_name": "Burton - Dorothy Perkins",
+      "lat": "51.48194",
+      "lat_orig": "51.481725",
+      "long": "-3.177825",
+      "long_orig": "-3.178103",
+      "Image": "dorothyperkinsburton.jpg"
+    },
+    {
+      "index": "44",
+      "common_co_name": "Regatta Great Outdoors",
+      "lat": "51.48194",
+      "lat_orig": "51.482104",
+      "long": "-3.177935",
+      "long_orig": "-3.1753",
+      "Image": "regatta.jpg"
+    },
+    {
+      "index": "45",
+      "common_co_name": "Poundland",
+      "lat": "51.481986",
+      "lat_orig": "51.481699",
+      "long": "-3.178357",
+      "long_orig": "-3.178287",
+      "Image": "poundland2.jpg"
+    },
+    {
+      "index": "46",
+      "common_co_name": "Santander",
+      "lat": "51.481762",
+      "lat_orig": "51.481778",
+      "long": "-3.178629",
+      "long_orig": "-3.178816",
+      "Image": "santander.jpg"
+    },
+    {
+      "index": "47",
+      "common_co_name": "Thirty Nine café",
+      "lat": "51.4818",
+      "lat_orig": "51.4818",
+      "long": "-3.178815",
+      "long_orig": "-3.178815",
+      "Image": "thirtynine.jpg"
+    },
+    {
+      "index": "48",
+      "common_co_name": "Pizza Hut",
+      "lat": "51.48176",
+      "lat_orig": "51.481625",
+      "long": "-3.178923",
+      "long_orig": "-3.178964",
+      "Image": "pizzahut.jpg"
+    },
+    {
+      "index": "49",
+      "common_co_name": "Lloyds bank ",
+      "lat": "51.48176",
+      "lat_orig": "51.481982",
+      "long": "-3.179043",
+      "long_orig": "-3.177055",
+      "Image": "lloydsbank.jpg"
+    },
+    {
+      "index": "50",
+      "common_co_name": "Spar",
+      "lat": "51.481476",
+      "lat_orig": "51.481653",
+      "long": "-3.17877",
+      "long_orig": "-3.17898",
+      "Image": "spar.jpg"
+    },
+    {
+      "index": "51",
+      "common_co_name": "Starbucks Coffee",
+      "lat": "51.48147",
+      "lat_orig": "51.48147",
+      "long": "-3.178657",
+      "long_orig": "-3.178657",
+      "Image": "starbucks2.jpg"
+    },
+    {
+      "index": "52",
+      "common_co_name": "TUI",
+      "lat": "51.481491",
+      "lat_orig": "51.4815",
+      "long": "-3.178493",
+      "long_orig": "-3.178519",
+      "Image": "tui.jpg"
+    },
+    {
+      "index": "53",
+      "common_co_name": "Blue Banana",
+      "lat": "51.481538",
+      "lat_orig": "51.481494",
+      "long": "-3.178401",
+      "long_orig": "-3.178384",
+      "Image": "bluebanana.jpg"
+    },
+    {
+      "index": "54",
+      "common_co_name": "McDonalds",
+      "lat": "51.481578",
+      "lat_orig": "51.481553",
+      "long": "-3.178295",
+      "long_orig": "-3.178302",
+      "Image": "mcdonalds.jpg"
+    },
+    {
+      "index": "55",
+      "common_co_name": "Theworks.co.uk",
+      "lat": "51.481598",
+      "lat_orig": "51.481554",
+      "long": "-3.178162",
+      "long_orig": "-3.177899",
+      "Image": "theworks.jpg"
+    },
+    {
+      "index": "56",
+      "common_co_name": "Trailfinders",
+      "lat": "51.481598",
+      "lat_orig": "51.481393",
+      "long": "-3.178062",
+      "long_orig": "-3.177921",
+      "Image": "trailfinders.jpg"
+    },
+    {
+      "index": "57",
+      "common_co_name": "EMPTY",
+      "Image": "empty.jpg"
+    },
+    {
+      "index": "58",
+      "common_co_name": "Chopstix Noodle bar",
+      "lat": "51.481535",
+      "lat_orig": "51.481535",
+      "long": "-3.17777",
+      "long_orig": "-3.17787",
+      "Image": "chopstix.jpg"
+    },
+    {
+      "index": "59",
+      "common_co_name": "ToysRus",
+      "lat": "51.481653",
+      "lat_orig": "51.481553",
+      "long": "-3.177466",
+      "long_orig": "-3.17733",
+      "Image": "toysrus.jpg"
+    },
+    {
+      "index": "60",
+      "common_co_name": "No1 Currency",
+      "lat": "51.481553",
+      "lat_orig": "51.481553",
+      "long": "-3.17733",
+      "long_orig": "-3.17733",
+      "Image": "no1.jpg"
+    },
+    {
+      "index": "61",
+      "common_co_name": "New Look",
+      "lat": "51.481719",
+      "lat_orig": "51.480773",
+      "long": "-3.17702",
+      "long_orig": "-3.176838",
+      "Image": "newlook.jpg"
+    },
+    {
+      "index": "62",
+      "common_co_name": "Tim Hortons café and bake shop",
+      "lat": "51.481719",
+      "lat_orig": "51.481233",
+      "long": "-3.1769",
+      "long_orig": "-3.177001",
+      "Image": "timhortons.jpg"
+    },
+    {
+      "index": "63",
+      "common_co_name": "Greggs",
+      "lat": "51.481719",
+      "lat_orig": "51.481719",
+      "long": "-3.17679",
+      "long_orig": "-3.17679",
+      "Image": "greggs.jpg"
+    },
+    {
+      "index": "64",
+      "common_co_name": "Boots",
+      "lat": "51.481799",
+      "lat_orig": "51.481799",
+      "long": "-3.176592",
+      "long_orig": "-3.176592",
+      "Image": "boots2.jpg"
+    },
+    {
+      "index": "65",
+      "common_co_name": "EMPTY",
+      "lat": "51.48192",
+      "lat_orig": "51.48192",
+      "long": "-3.176566",
+      "long_orig": "-3.176566",
+      "Image": "empty.jpg"
+    },
+    {
+      "index": "66",
+      "common_co_name": "EE",
+      "lat": "51.481827",
+      "lat_orig": "51.481827",
+      "long": "-3.1762",
+      "long_orig": "-3.176145",
+      "Image": "ee.jpg"
+    },
+    {
+      "index": "67",
+      "common_co_name": "Starbucks Coffee",
+      "lat": "51.481851",
+      "lat_orig": "51.481472",
+      "long": "-3.17612",
+      "long_orig": "-3.176403",
+      "Image": "starbucks.jpg"
+    },
+    {
+      "index": "68",
+      "common_co_name": "Optical Express",
+      "lat": "51.481912",
+      "lat_orig": "51.481472",
+      "long": "-3.175974",
+      "long_orig": "-3.176403",
+      "Image": "opticalexpress.jpg"
+    },
+    {
+      "index": "69",
+      "common_co_name": "Primark",
+      "lat": "51.481912",
+      "lat_orig": "51.480039",
+      "long": "-3.175854",
+      "long_orig": "-3.175285",
+      "Image": "primark.jpg"
+    },
+    {
+      "index": "70",
+      "common_co_name": "HSBC",
+      "lat": "51.481912",
+      "lat_orig": "51.48145",
+      "long": "-3.175697",
+      "long_orig": "-3.176586",
+      "Image": "hsbc.jpg"
+    },
+    {
+      "index": "71",
+      "common_co_name": "O2",
+      "lat": "51.482076",
+      "lat_orig": "51.482076",
+      "long": "-3.175415",
+      "long_orig": "-3.175415",
+      "Image": "O2.jpg"
+    },
+    {
+      "index": "72",
+      "common_co_name": "Ernest Jones",
+      "lat": "51.482051",
+      "lat_orig": "51.482208",
+      "long": "-3.1753",
+      "long_orig": " lng: -3.175053",
+      "Image": "ernestjones.jpg"
+    },
+    {
+      "index": "73",
+      "common_co_name": "St Davids Mall Entrance",
+      "lat": "51.479536",
+      "lat_orig": "51.479536",
+      "long": "-3.174418",
+      "long_orig": "-3.174418"
+    },
+    {
+      "index": "74",
+      "common_co_name": "Clarks",
+      "lat": "51.482051",
+      "lat_orig": "51.481845",
+      "long": "-3.175192",
+      "long_orig": "-3.175391",
+      "Image": "clarks.jpg"
+    },
+    {
+      "index": "75",
+      "common_co_name": "Samsung",
+      "lat": "51.482051",
+      "lat_orig": "51.481972",
+      "long": "-3.175072",
+      "long_orig": "-3.17524",
+      "Image": "samsung.jpg"
+    },
+    {
+      "index": "76",
+      "common_co_name": "Marks And Spencer",
+      "lat": "51.482184",
+      "lat_orig": "51.481654",
+      "long": "-3.174744",
+      "long_orig": "-3.174544",
+      "Image": "mands.jpg"
+    },
+    {
+      "index": "77",
+      "common_co_name": "Burger King",
+      "lat": "51.482184",
+      "lat_orig": "51.482168",
+      "long": "-3.174469",
+      "long_orig": "-3.174467",
+      "Image": "burgerking.jpg"
+    },
+    {
+      "index": "78",
+      "common_co_name": "Next",
+      "lat": "51.482246",
+      "lat_orig": "51.48222",
+      "long": "-3.174183",
+      "long_orig": "-3.17419",
+      "Image": "next.jpg"
+    },
+    {
+      "index": "79",
+      "common_co_name": "Lipsy",
+      "lat": "51.48222",
+      "lat_orig": "51.48222",
+      "long": "-3.174064",
+      "long_orig": "-3.17419",
+      "Image": "lipsy.jpg"
+    },
+    {
+      "index": "80",
+      "common_co_name": "Card Factory",
+      "lat": "51.482338",
+      "lat_orig": "51.482594",
+      "long": "-3.17404",
+      "long_orig": "-3.173827",
+      "Image": "cardfactory.jpg"
+    },
+    {
+      "index": "81",
+      "common_co_name": "Specsavers",
+      "lat": "51.482366",
+      "lat_orig": "51.482594",
+      "long": "-3.173895",
+      "long_orig": "-3.173827",
+      "Image": "specsavers.jpg"
+    },
+    {
+      "index": "82",
+      "common_co_name": "NatWest",
+      "lat": "51.482393",
+      "lat_orig": "51.48237",
+      "long": "-3.173659",
+      "long_orig": "-3.173692",
+      "Image": "natwest.jpg"
+    },
+    {
+      "index": "83",
+      "common_co_name": "Capital Arcade Shopping Centre",
+      "lat": "51.482559",
+      "lat_orig": "51.482559",
+      "long": "-3.172031",
+      "long_orig": "-3.172031",
+      "Image": "capitol.jpg"
+    },
+    {
+      "index": "85",
+      "common_co_name": "fashion avenue",
+      "lat": "51.482748",
+      "lat_orig": "51.482559",
+      "long": "-3.173047",
+      "long_orig": "-3.172031",
+      "Image": "fashionavenue.jpg"
+    },
+    {
+      "index": "86",
+      "common_co_name": "Pret A Manger",
+      "lat": "51.482748",
+      "lat_orig": "51.482559",
+      "long": "-3.172927",
+      "long_orig": "-3.172031",
+      "Image": "pretamanger.jpg"
+    },
+    {
+      "index": "87",
+      "common_co_name": "Phase Eight",
+      "lat": "51.482734",
+      "lat_orig": "51.482559",
+      "long": "-3.172741",
+      "long_orig": "-3.172031",
+      "Image": "phaseeight.jpg"
+    },
+    {
+      "index": "88",
+      "common_co_name": "ATMA",
+      "lat": "51.482884",
+      "lat_orig": "51.482559",
+      "long": "-3.172741",
+      "long_orig": "-3.172031",
+      "Image": "atma.jpg"
+    },
+    {
+      "index": "89",
+      "common_co_name": "Hobbs",
+      "lat": "51.48281",
+      "lat_orig": "51.482559",
+      "long": "-3.172577",
+      "long_orig": "-3.172031",
+      "Image": "hobbs.jpg"
+    },
+    {
+      "index": "90",
+      "common_co_name": "Halifax",
+      "lat": "51.482888",
+      "lat_orig": "51.482559",
+      "long": "-3.172418",
+      "long_orig": "-3.172031",
+      "Image": "halifax.jpg"
+    },
+    {
+      "index": "91",
+      "common_co_name": "Boots                                                                                                                                                                                ",
+      "lat": "51.482745",
+      "lat_orig": "51.482559",
+      "long": "-3.172134",
+      "long_orig": "-3.172031",
+      "Image": "boots.jpg"
+    },
+    {
+      "index": "92",
+      "common_co_name": "Caffè Nero",
+      "lat": "51.4829",
+      "lat_orig": "51.482559",
+      "long": "-3.171933",
+      "long_orig": "-3.172031",
+      "Image": "caffenero.jpg"
+    }
+  ]
+}

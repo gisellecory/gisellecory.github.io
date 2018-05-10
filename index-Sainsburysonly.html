@@ -1,0 +1,32 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKjY7P1tc1MgIBX9UDkZxj1pBBAAJ3Kdw&callback=getJson">
+</script>
+<script>
+//https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+function getJson(){
+  fetch('data3.json')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(theJson) {
+    //  console.log("first");
+  //    console.log(theJson.Sheet1[2]);
+      initMap(theJson);
+  //    console.log(theJson);
+    });
+}
+
+</script>
+
+
+</body>
+</html>
