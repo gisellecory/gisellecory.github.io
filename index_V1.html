@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giselle Cory — Senior leader in social change</title>
+  <meta name="description" content="Giselle Cory is a senior leader with 15+ years' experience in social change, focused on using data and AI for good.">
+
+  <!-- Favicon: orange G -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#E87722">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #FCF8F2;   /* warm cream */
+      --section:   #F4ECE0;   /* deeper cream */
+      --ink:       #201B2E;   /* near-black, high contrast on cream */
+      --ink-soft:  #46414F;   /* secondary text, passes AA on cream */
+      --coral:     #D8451F;   /* primary accent (large text / decoration) */
+      --coral-text:#B83214;   /* darker coral for small text — passes AA */
+      --teal:      #0F766E;
+      --plum:      #6B2FA0;
+      --mustard:   #B7791F;
+      --pink:      #C2255C;
+      --line:      #E2D7C7;
+      --focus:     #0F766E;
+    }
+
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 1.0625rem;       /* rem-based so browser/OpenDyslexic scaling works */
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    /* Accessibility: skip link */
+    .skip-link {
+      position: absolute; left: -999px; top: 0;
+      background: var(--ink); color: #fff; padding: 0.7rem 1.1rem;
+      border-radius: 0 0 8px 0; z-index: 1000; font-weight: 600;
+    }
+    .skip-link:focus { left: 0; }
+
+    /* Visible focus for keyboard users */
+    a:focus-visible, button:focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+
+    .wrap { width: min(1080px, 100% - 3rem); margin-inline: auto; }
+
+    /* ===== NAV ===== */
+    .site-nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(252, 248, 242, 0.94);
+      backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner {
+      width: min(1080px, 100% - 3rem); margin-inline: auto;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 1rem; padding: 0.9rem 0; flex-wrap: wrap;
+    }
+    .nav-name {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 600; font-size: 1.2rem; letter-spacing: 0.01em;
+      color: var(--ink); text-decoration: none; white-space: nowrap;
+    }
+    .nav-name span { color: var(--coral); }
+    .nav-menu {
+      display: flex; gap: 1.4rem; list-style: none; flex-wrap: wrap;
+    }
+    .nav-menu a {
+      font-size: 0.82rem; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; text-decoration: none;
+      color: var(--ink-soft); padding: 0.25rem 0; position: relative;
+    }
+    .nav-menu a::after {
+      content: ''; position: absolute; left: 0; bottom: -2px;
+      width: 0; height: 2px; background: var(--coral); transition: width 0.25s ease;
+    }
+    .nav-menu a:hover, .nav-menu a:focus-visible { color: var(--ink); }
+    .nav-menu a:hover::after, .nav-menu a:focus-visible::after { width: 100%; }
+
+    /* ===== HERO ===== */
+    .hero { padding: clamp(2.5rem, 7vw, 5.5rem) 0 clamp(2rem, 5vw, 3.5rem); }
+    .hero-grid {
+      display: grid; grid-template-columns: 1.05fr 0.95fr;
+      gap: clamp(2rem, 5vw, 4rem); align-items: center;
+    }
+    .eyebrow {
+      display: inline-block; font-size: 0.78rem; font-weight: 600;
+      letter-spacing: 0.18em; text-transform: uppercase; color: var(--coral-text);
+      margin-bottom: 1.1rem;
+    }
+    .hero h1 {
+      font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+      font-size: clamp(2.4rem, 5.5vw, 4rem); line-height: 1.05;
+      letter-spacing: -0.01em; margin-bottom: 1.3rem;
+    }
+    .hero h1 em { font-style: italic; color: var(--coral); }
+    .hero-lede { font-size: 1.18rem; color: var(--ink-soft); max-width: 34ch; }
+    .hero-figure { position: relative; }
+    .hero-figure img {
+      width: 100%; height: auto; display: block; border-radius: 14px;
+      box-shadow: 0 22px 48px -22px rgba(32, 27, 46, 0.45);
+    }
+    .hero-figure .swatch {
+      position: absolute; border-radius: 14px; z-index: -1;
+      inset: 18px -18px -18px 18px; background: var(--mustard);
+    }
+
+    /* ===== SECTIONS ===== */
+    section { scroll-margin-top: 80px; }
+    .band { padding: clamp(3rem, 7vw, 5rem) 0; }
+    .band.alt { background: var(--section); border-block: 1px solid var(--line); }
+    .section-head {
+      display: flex; align-items: baseline; gap: 1rem; margin-bottom: 2rem;
+    }
+    .section-head h2 {
+      font-family: 'Fraunces', Georgia, serif; font-weight: 600;
+      font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.1; letter-spacing: -0.01em;
+    }
+    .section-head .num {
+      font-family: 'Fraunces', Georgia, serif; font-size: 1rem;
+      color: var(--coral-text); font-weight: 600; letter-spacing: 0.05em;
+    }
+
+    .prose p { margin-bottom: 1.1rem; max-width: 68ch; }
+    .prose p:last-child { margin-bottom: 0; }
+
+    /* About: text + secondary detail */
+    .about-grid { display: grid; grid-template-columns: 1.4fr 0.6fr; gap: clamp(2rem,5vw,3.5rem); align-items: start; }
+    .fact-card {
+      background: var(--bg); border: 1px solid var(--line); border-radius: 14px;
+      padding: 1.6rem 1.5rem;
+    }
+    .band.alt .fact-card { background: #fff; }
+    .fact-card h3 {
+      font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 600;
+      letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal);
+      margin-bottom: 0.9rem;
+    }
+    .fact-card ul { list-style: none; }
+    .fact-card li { padding: 0.45rem 0; border-bottom: 1px solid var(--line); font-size: 0.98rem; }
+    .fact-card li:last-child { border-bottom: 0; }
+    .fact-card li strong { color: var(--ink); font-weight: 600; }
+
+    /* Highlights with photo + stat callouts */
+    .media-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: clamp(2rem,5vw,3.5rem); align-items: center; }
+    .media-grid.flip { grid-template-columns: 1.1fr 0.9fr; }
+    .media-figure img { width: 100%; height: auto; display: block; border-radius: 14px; box-shadow: 0 18px 40px -22px rgba(32,27,46,0.4); }
+    figcaption { font-size: 0.82rem; color: var(--ink-soft); margin-top: 0.6rem; font-style: italic; }
+
+    .stats { display: flex; flex-wrap: wrap; gap: 0.8rem; margin: 1.6rem 0 0; }
+    .stat {
+      flex: 1 1 0; min-width: 130px; padding: 1rem 1.1rem; border-radius: 12px;
+      color: #fff;
+    }
+    .stat .n { font-family:'Fraunces',serif; font-size: 1.7rem; font-weight: 600; line-height: 1; display: block; }
+    .stat .l { font-size: 0.8rem; margin-top: 0.4rem; opacity: 0.95; }
+    .stat.c1 { background: var(--coral); }
+    .stat.c2 { background: var(--teal); }
+    .stat.c3 { background: var(--plum); }
+
+    /* ===== BRANDS GRID ===== */
+    .brand-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: clamp(0.9rem, 2.5vw, 1.6rem);
+      align-items: center;
+    }
+    .brand-tile {
+      aspect-ratio: 1 / 1; border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.2s ease;
+    }
+    .brand-tile:hover { transform: translateY(-4px); }
+    .brand-tile img {
+      max-width: 100%; max-height: 100%; width: auto; height: auto;
+      object-fit: contain; display: block;
+    }
+    @media (max-width: 420px) {
+      .brand-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    /* ===== FOOTER ===== */
+    .site-footer { background: var(--ink); color: #EFE9F2; padding: 3rem 0; }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+    .footer-name { font-family:'Fraunces',serif; font-size: 1.3rem; font-weight: 500; }
+    .footer-links { display: flex; align-items: center; gap: 1.4rem; }
+    .footer-links a { color: #EFE9F2; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.95rem; }
+    .footer-links a:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+    .footer-links svg { width: 22px; height: 22px; flex: none; }
+    .footer-links a:focus-visible { outline-color: #E0A21B; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 820px) {
+      .hero-grid, .about-grid, .media-grid, .media-grid.flip { grid-template-columns: 1fr; }
+      .media-grid.flip .media-figure { order: -1; }
+      .hero-figure .swatch { inset: 12px -12px -12px 12px; }
+      .nav-menu { gap: 1rem; width: 100%; }
+    }
+    @media (max-width: 480px) {
+      .nav-menu { font-size: 0.75rem; }
+      .stat { flex-basis: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- NAV -->
+  <header class="site-nav">
+    <nav class="nav-inner" aria-label="Primary">
+      <a class="nav-name" href="#top">Giselle <span>Cory</span></a>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#highlights">Highlights</a></li>
+        <li><a href="#current">Current</a></li>
+        <li><a href="#brands">Organisations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- HERO -->
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow">Senior leader · Social change</span>
+          <h1 id="hero-title">Using <em>data for change</em> across the social sector.</h1>
+          <p class="hero-lede">15+ years driving social change — from award-winning think tanks and Prime Ministerial units to leading a data science charity.</p>
+        </div>
+        <figure class="hero-figure">
+          <span class="swatch" aria-hidden="true"></span>
+          <img src="Assets/Headshots/web_giselle_headshot.jpg" width="1200" height="675"
+               alt="Portrait of Giselle Cory smiling, wearing a brightly patterned top against a brick wall.">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="band">
+      <div class="wrap">
+        <div class="section-head"><span class="num">01</span><h2>About</h2></div>
+        <div class="about-grid">
+          <div class="prose">
+            <p>Giselle is a senior leader with 15+ years' experience in social change. She focuses on using data for change, most recently as CEO of DataKind UK, a volunteer-powered data science charity. Prior to that, her career has spanned award-winning think tanks, Prime Ministerial units and national charities.</p>
+            <p>Giselle combines subject expertise in using data and AI for good with deep experience of the charity sector. She is at her best as a leader, driving forward a vision and guiding others to fulfil their potential.</p>
+          </div>
+          <aside class="fact-card">
+            <h3>At a glance</h3>
+            <ul>
+              <li><strong>Focus:</strong> Data &amp; AI for good</li>
+              <li><strong>Most recent:</strong> CEO, DataKind UK</li>
+              <li><strong>Degree:</strong> Maths &amp; Physics</li>
+              <li><strong>Masters:</strong> Computational &amp; Data Journalism</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section id="highlights" class="band alt">
+      <div class="wrap">
+        <div class="section-head"><span class="num">02</span><h2>Highlights</h2></div>
+        <div class="media-grid">
+          <figure class="media-figure">
+            <img src="Assets/Headshots/web_giselle_hosting.jpg" width="1600" height="1066"
+                 alt="Giselle Cory holding a microphone and speaking on stage at the Data Science Festival.">
+            <figcaption>Hosting at the Data Science Festival.</figcaption>
+          </figure>
+          <div class="prose">
+            <p>I've been the talking head on the BBC and Sky News, hosted a 500-person event, briefed ministers on my analysis, and led a charity. I've consulted for leading grantmakers and government institutions, and became a leading expert on childcare and family policy.</p>
+            <p>I successfully campaigned for increased funding for and access to early years education, and was acknowledged by Number 10 as the key contributor to this change in Government policy. In my first ever job in the civil service, I was headhunted to be the principal analyst for Sir Philip Green's review of government spending. As CEO of DataKind UK, I raised £1.5m+ and led a diverse team of staff and hundreds of volunteers to transform how charities use data science and AI.</p>
+            <div class="stats">
+              <div class="stat c1"><span class="n">£1.5m+</span><span class="l">Raised as CEO of DataKind UK</span></div>
+              <div class="stat c2"><span class="n">500</span><span class="l">Person event hosted</span></div>
+              <div class="stat c3"><span class="n">No.10</span><span class="l">Credited on early-years policy</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="prose" style="margin-top:2.2rem;">
+          <p>As a volunteer, I've supported Global Witness to use data to fight corruption, helped activists in Jordan through Data4Change and mentored young people in my community. I am currently on the Board of London Plus, supporting London's voluntary and community sector.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRENT -->
+    <section id="current" class="band">
+      <div class="wrap">
+        <div class="section-head"><span class="num">03</span><h2>Current</h2></div>
+        <div class="media-grid flip">
+          <div class="prose">
+            <p>I recently took a career break to develop my skills as a writer, during which I won an Emerging Writer's Award and was published in two literary journals — alongside maintaining senior-level advisory work including strategy and multi-year planning for Joseph Rowntree Foundation's Insight Infrastructure programme.</p>
+            <p>I'm now looking to get back into the sector. I love supporting people to be at their best, and roles that come with dynamic days and call for thoughtful navigation.</p>
+          </div>
+          <figure class="media-figure">
+            <img src="Assets/Headshots/web_giselle_deptford.jpg" width="1600" height="1064"
+                 alt="Giselle Cory, second from right, on a panel of five writers reading from books on stage.">
+            <figcaption>Reading alongside fellow emerging writers.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRANDS -->
+    <section id="brands" class="band alt">
+      <div class="wrap">
+        <div class="section-head"><span class="num">04</span><h2>Worked with &amp; for</h2></div>
+        <div class="brand-grid" id="brandGrid" role="list" aria-label="Organisations Giselle has worked with or for"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span class="footer-name">Giselle Cory</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/gisellecory/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+            <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="mailto:gisellecory@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/>
+          </svg>
+          <span>gisellecory@gmail.com</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Brand logo tiles — logo on white, contained.
+    const brands = [
+      ["Joseph Rowntree Foundation", "Assets/Logos/logo_jrf.png"],
+      ["DataKind UK", "Assets/Logos/logo_datakind-uk.png"],
+      ["Data4Good Festival", "Assets/Logos/logo_data4good-festival.png"],
+      ["Data4Change", "Assets/Logos/logo_data4change.png"],
+      ["London Plus", "Assets/Logos/logo_london-plus.png"],
+      ["Greater London Authority", "Assets/Logos/logo_gla.png"],
+      ["Women's Budget Group", "Assets/Logos/logo_womens-budget-group.png"],
+      ["Institute for Public Policy Research", "Assets/Logos/logo_ippr.png"],
+      ["Doteveryone", "Assets/Logos/logo_doteveryone.png"],
+      ["Children's Commissioner for England", "Assets/Logos/logo_childrens-commissioner.png"],
+      ["Global Witness", "Assets/Logos/logo_global-witness.png"],
+      ["Resolution Foundation", "Assets/Logos/logo_resolution-foundation.png"],
+      ["Victim Support", "Assets/Logos/logo_victim-support.png"],
+      ["Research Data Scotland", "Assets/Logos/logo_research-data-scotland.png"],
+      ["Cabinet Office & HM Treasury", "Assets/Logos/logo_hmt-cabinet-office.png"]
+    ];
+    const grid = document.getElementById('brandGrid');
+    brands.forEach(([name, src]) => {
+      const tile = document.createElement('div');
+      tile.className = 'brand-tile';
+      tile.setAttribute('role', 'listitem');
+      tile.title = name;
+      const img = document.createElement('img');
+      img.src = src;
+      img.alt = name + ' logo';
+      img.title = name;
+      img.loading = 'lazy';
+      tile.appendChild(img);
+      grid.appendChild(tile);
+    });
+  </script>
+</body>
+</html>
